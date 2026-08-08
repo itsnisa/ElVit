@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2026-08-05T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="alur-penelitian" name="Alur Penelitian">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Alur Penelitian Deteksi Kesenjangan Kompetensi Profesional IT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="120" y="30" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="start" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#14532D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="problem" value="Identifikasi Masalah&#xa;Skill gap antara kompetensi profesional IT dan kebutuhan industri" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;fontColor=#0F172A;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="business" value="Business Understanding&#xa;Menentukan tujuan, ruang lingkup, standar acuan SKKNI/SFIA, dan pertanyaan penelitian" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontColor=#0F172A;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="data_understanding" value="Data Understanding&#xa;Memahami dataset lowongan kerja IT dan anotasi NER skill melalui statistik dan visualisasi EDA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#7C3AED;fontColor=#0F172A;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="data_prep" value="Data Preparation&#xa;Cleaning, normalisasi skill, skill vocabulary, ekstraksi fitur, TF-IDF, dan train-test split" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE7F3;strokeColor=#DB2777;fontColor=#0F172A;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="490" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="modeling" value="Modeling&#xa;Melatih dan membandingkan model Logistic Regression, SVM, Random Forest, XGBoost, serta tuning parameter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#0F172A;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="600" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation" value="Evaluation&#xa;Evaluasi accuracy, precision, recall, F1-score, confusion matrix, cross validation, dan hasil skill gap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEDD5;strokeColor=#EA580C;fontColor=#0F172A;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="710" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" value="Performa model sudah baik?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;fontColor=#0F172A;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="830" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="improvement" value="Improved Model&#xa;Perbaikan label seniority, feature engineering, ekstraksi pengalaman, dan SMOTE-Tomek" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAE8FF;strokeColor=#C026D3;fontColor=#0F172A;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="610" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="implementation" value="Implementasi Sistem&#xa;Integrasi model ke web untuk input CV/manual skill, pemilihan job category, deteksi gap, dan rekomendasi skill" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFBF1;strokeColor=#0D9488;fontColor=#0F172A;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="980" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="conclusion" value="Kesimpulan dan Saran&#xa;Menarik hasil penelitian, keterbatasan, dan rekomendasi pengembangan lanjutan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#475569;fontColor=#0F172A;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1100" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="end" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#14532D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1210" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="endArrow=block;html=1;rounded=0;strokeColor=#334155;" edge="1" parent="1" source="start" target="problem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="endArrow=block;html=1;rounded=0;strokeColor=#334155;" edge="1" parent="1" source="problem" target="business">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="endArrow=block;html=1;rounded=0;strokeColor=#334155;" edge="1" parent="1" source="business" target="data_understanding">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="endArrow=block;html=1;rounded=0;strokeColor=#334155;" edge="1" parent="1" source="data_understanding" target="data_prep">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="endArrow=block;html=1;rounded=0;strokeColor=#334155;" edge="1" parent="1" source="data_prep" target="modeling">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="endArrow=block;html=1;rounded=0;strokeColor=#334155;" edge="1" parent="1" source="modeling" target="evaluation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="endArrow=block;html=1;rounded=0;strokeColor=#334155;" edge="1" parent="1" source="evaluation" target="decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" value="Tidak" style="endArrow=block;html=1;rounded=0;strokeColor=#DC2626;fontColor=#DC2626;fontStyle=1;" edge="1" parent="1" source="decision" target="improvement">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="Latih ulang" style="endArrow=block;html=1;rounded=0;strokeColor=#C026D3;fontColor=#C026D3;fontStyle=1;" edge="1" parent="1" source="improvement" target="modeling">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" value="Ya" style="endArrow=block;html=1;rounded=0;strokeColor=#16A34A;fontColor=#16A34A;fontStyle=1;" edge="1" parent="1" source="decision" target="implementation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" style="endArrow=block;html=1;rounded=0;strokeColor=#334155;" edge="1" parent="1" source="implementation" target="conclusion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" style="endArrow=block;html=1;rounded=0;strokeColor=#334155;" edge="1" parent="1" source="conclusion" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

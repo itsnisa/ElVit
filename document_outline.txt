@@ -1,0 +1,341 @@
+0 [] UNIVERSITAS GUNADARMAFAKULTAS TEKNOLOGI INDUSTRI
+5 [Heading1] PENULISAN ILMIAH
+6 [] PENGEMBANGAN SISTEM DETEKSI KESENJANGAN KOMPETENSI DAN REKOMENDASI SKILL MENGGUNAKAN PENDEKATAN MACHINE LEARNING PADA BIDANG IT
+20 [] JAKARTA
+23 [Heading1] PERNYATAAN ORISINALITAS DAN PUBLIKASI
+30 [] KESENJANGAN KOMPETENSI DAN REKOMENDASI SKILL MENGGUNAKAN PENDEKATAN MACHINE LEARNING PADA BIDANG IT
+47 [Heading1] LEMBAR PENGESAHAN
+51 [] KESENJANGAN KOMPETENSI DAN REKOMENDASI SKILL MENGGUNAKAN PENDEKATAN MACHINE LEARNING PADA BIDANG IT
+72 [Heading1] ABSTRAK
+74 [] PENGEMBANGAN SISTEM DETEKSI KESENJANGAN KOMPETENSI DAN REKOMENDASI SKILL MENGGUNAKAN PENDEKATAN MACHINE LEARNING PADA BIDANG IT
+84 [Heading1] ABSTRACT
+86 [] DEVELOPMENT OF A SYSTEM FOR DETECTING SKILL GAPS AND PROVIDING SKILL RECOMMENDATIONS USING A MACHINE LEARNING APPROACH IN THE FIELD OF IT
+92 [NormalWeb] This study aims to develop a web-based system called ElvIT that can detect technical skill gaps in the field of Information Technology and provide personalized skill recommendations using a hybrid approach combining Natural Language Processing (NLP) and Machine Learning. The system receives user com
+94 [NormalWeb] References (2015–2024)
+95 [Heading1] KATA PENGANTAR
+99 [ListParagraph] Prof. Dr. E.S. Margianti, SE., MM., selaku Rektor Universitas Gunadarma.
+100 [ListParagraph] Prof. Dr. -Ing. Adang Suhandra, SSi., S.Kom., MSc., selaku Dekan Fakultas Teknologi Industri Universitas Gunadarma.
+101 [ListParagraph] Prof. Dr. Lintang Yuniar Banowosari, S.Kom., M.Sc., selaku Ketua Program Studi Informatika Universitas Gunadarma.
+102 [ListParagraph] Dr. Achmad Fahrurozi, S.Si, M.Si., selaku Kepala Sub Bagian Sidang Penulisan Ilmiah Fakultas Teknologi Industri Universitas Gunadarma.
+103 [ListParagraph] Dr. Antonius Angga Kurniawan, ST., MMSI, selaku Dosen Pembimbing yang telah memberikan bimbingan, arahan, dan saran yang sangat berharga selama proses penelitian dan penulisan berlangsung.
+105 [ListParagraph] Donny Hidayat dan Eka Patmasari, selaku orang tua penulis yang senantiasa memberikan doa, dukungan, dan motivasi selama penulis menjalani masa studi.
+106 [ListParagraph] Muhammad Daffa’ Alfiannoor,
+111 [Heading1] DAFTAR ISI
+114 [TOC1] LEMBAR JUDULi
+115 [TOC1] PERNYATAAN ORISINALITAS DAN PUBLIKASIii
+116 [TOC1] LEMBAR PENGESAHANiii
+117 [TOC1] ABSTRAKiv
+118 [TOC1] ABSTRACTv
+119 [TOC1] KATA PENGANTARvi
+120 [TOC1] DAFTAR ISIviii
+121 [TOC1] DAFTAR TABELxi
+122 [TOC1] DAFTAR GAMBARxii
+123 [TOC1] DAFTAR LAMPIRANxiii
+125 [TOC1] 1.PENDAHULUAN1
+126 [TOC2] 1.1. Latar Belakang1
+127 [TOC2] 1.2. Ruang Lingkup3
+128 [TOC2] 1.3. Tujuan Penelitian4
+129 [TOC2] 1.4. Metode Penelitian4
+130 [TOC2] 1.5. Sistematika Penulisan7
+132 [TOC1] 2.LANDASAN TEORI9
+133 [TOC2] 2.1. Kesenjangan Kompetensi (Skill Gap)9
+134 [TOC2] 2.2. Standar Kompetensi Kerja9
+135 [TOC3] 2.2.1. SKKNI (Standar Kompetensi Kerja Nasional Indonesia)9
+136 [TOC3] 2.2.2. SFIA (Skills Framework for the Information Age)10
+137 [TOC2] 2.3. Natural Language Processing (NLP)10
+138 [TOC3] 2.3.1. Text Preprocessing10
+139 [TOC2] 2.4. Ekstraksi Fitur Teks11
+140 [TOC3] 2.4.1. TF-IDF (Term Frequency-Inverse Document Frequency)11
+141 [TOC3] 2.4.2. Word Embedding dan IndoBERT11
+142 [TOC2] 2.5. Algoritma Klasifikasi12
+143 [TOC3] 2.5.1. Random Forest12
+144 [TOC3] 2.5.2. Support Vector Machine (SVM)12
+145 [TOC3] 2.5.3. XGBoost (Extreme Gradient Boosting)12
+146 [TOC3] 2.5.4. Model Berbasis BERT untuk Klasifikasi12
+147 [TOC2] 2.5.5. Logistic Regression13
+148 [TOC3] 2.5.6. Algoritma LightGBM13
+149 [TOC2] 2.6. Sistem Rekomendasi13
+150 [TOC3] 2.6.1. Content-Based Filtering13
+151 [TOC3] 2.6.2. Collaborative Filtering14
+152 [TOC3] 2.6.3. Hybrid Recommendation System14
+153 [TOC2] 2.7. CRISP-DM (Cross-Industry Standard Process for Data Mining)14
+154 [TOC2] 2.8. Evaluasi Model14
+156 [TOC1] 3.PEMBAHASAN DAN IMPLEMENTASI16
+157 [TOC2] 3.1 Gambaran Umum Penelitian16
+158 [TOC2] 3.2 Perancangan Sistem18
+159 [TOC3] 3.2.1 Flowchart Program18
+160 [TOC3] 3.2.2 Use Case Diagram21
+161 [TOC3] 3.2.3 Activity Diagram21
+162 [TOC2] 3.3 Business Understanding24
+163 [TOC3] 3.3.1 Identifikasi Masalah25
+164 [TOC3] 3.3.2 Tujuan Bisnis25
+165 [TOC3] 3.3.3 Tujuan Teknis26
+166 [TOC3] 3.3.4 Kriteria Keberhasilan27
+167 [TOC2] 3.4 Data Understanding27
+168 [TOC3] 3.4.1 Sumber dan Deskripsi Dataset28
+169 [TOC3] 3.4.2 Informasi Umum Dataset29
+170 [TOC3] 3.4.3 Statistik Deskriptif30
+171 [TOC3] 3.4.4 Exploratory Data Analysis (EDA)31
+172 [TOC2] 3.5 Data Preparation35
+173 [TOC3] 3.5.1 Pembentukan Fitur35
+174 [TOC3] 3.5.2 Pembersihan Data37
+175 [TOC3] 3.5.3 Feature Selection dan Encoding37
+176 [TOC3] 3.5.4 Pembagian Data Latih-Uji38
+177 [TOC3] 3.5.5 Normalisasi Fitur38
+178 [TOC2] 3.6 Modeling39
+179 [TOC3] 3.6.1 Penentuan Fitur dan Target39
+180 [TOC3] 3.6.2 Pembagian Data dan Normalisasi40
+181 [TOC3] 3.6.3 Algoritma yang Digunakan40
+182 [TOC3] 3.6.4 Hyperparameter Tuning / Cross Validation41
+183 [TOC3] 3.6.5 Evaluasi Model42
+184 [TOC3] 3.6.6 Model Final44
+185 [TOC3] 3.6.7 Analisis Fitur Penting45
+186 [TOC3] 3.6.8 Penyimpanan Model47
+187 [TOC2] 3.7 Evaluasi47
+188 [TOC3] 3.7.1 Tujuan Evaluasi48
+189 [TOC3] 3.7.2 Metrik Evaluasi48
+190 [TOC3] 3.7.3 Hasil Perbandingan Model49
+191 [TOC3] 3.7.4 Evaluasi Model Terpilih50
+192 [TOC3] 3.7.5 Confusion Matrix50
+193 [TOC3] 3.7.6 Evaluasi AUC-ROC52
+194 [TOC3] 3.7.7 Analisis Hasil Evaluasi52
+195 [TOC3] 3.7.8 Kesimpulan Evaluasi53
+196 [TOC2] 3.8 Implementasi Sistem (Deployment)53
+197 [TOC3] 3.8.1 Implementasi Backend54
+198 [TOC3] 3.8.2 Implementasi Frontend55
+199 [TOC3] 3.8.3 Pipeline NLP56
+200 [TOC3] 3.8.4 Algoritma Deteksi Kesenjangan dan Rekomendasi57
+201 [TOC3] 3.8.5 Black Box Testing59
+202 [TOC3] 3.8.7 Kesimpulan Implementasi61
+203 [TOC3] 3.8.8 Ringkasan Pembahasan Bab62
+205 [TOC1] 4. PENUTUP66
+206 [TOC2] 4.1 Kesimpulan66
+207 [TOC2] 4.2 Saran67
+209 [TOC1] DAFTAR PUSTAKA68
+210 [TOC1] LAMPIRANL-1
+212 [Heading1] DAFTAR TABEL
+214 [TableofFigures] Tabel 3. 1 Tahapan Penelitian14
+215 [TableofFigures] Tabel 3. 2 Dataset yang Digunakan22
+216 [TableofFigures] Tabel 3. 3 Kolom Kunci Dataset Lowongan Kerja23
+217 [TableofFigures] Tabel 3. 4 Statistik Deskriptif yang Dianalisis24
+218 [TableofFigures] Tabel 3. 5 Fitur Engineered yang Digunakan31
+219 [TableofFigures] Tabel 3. 6 Encoding Target Seniority33
+220 [TableofFigures] Tabel 3. 7 Algoritma yang Dibandingkan36
+221 [TableofFigures] Tabel 3. 8 Perbandingan Model Versi 138
+222 [TableofFigures] Tabel 3. 9 Perbandingan Model Versi 239
+223 [TableofFigures] Tabel 3. 10 Artefak Model Final40
+224 [TableofFigures] Tabel 3. 11 Contoh Interpretasi Feature Importance41
+225 [TableofFigures] Tabel 3. 12 Metrik Evaluasi Model44
+226 [TableofFigures] Tabel 3. 13 Format Confusion Matrix Multi-Kelas47
+227 [TableofFigures] Tabel 3. 14 Endpoint API ElvIT50
+228 [TableofFigures] Tabel 3. 15 Halaman Utama Frontend52
+229 [TableofFigures] Tabel 3. 16 Contoh Input dan Output Fitur Scan CV55
+230 [TableofFigures] Tabel 3. 17 Contoh Input dan Output Self Assessment56
+231 [TableofFigures] Tabel 3. 18 Contoh Input dan Output Manual Skill Check56
+232 [TableofFigures] Tabel 3. 19 Black Box Testing ElvIT57
+234 [Heading1] DAFTAR GAMBAR
+236 [TableofFigures] Gambar 3. 1 Flowchart Program ElvIT16
+237 [TableofFigures] Gambar 3. 2 Use Case Diagram ElvIT17
+238 [TableofFigures] Gambar 3. 3 Activity Diagram ElvIT18
+239 [TableofFigures] Gambar 3. 4 Proporsi dan Distribusi Seniority Level26
+240 [TableofFigures] Gambar 3. 5 Distribusi Seniority Level per Job26
+241 [TableofFigures] Gambar 3. 6 Distribusi Jumlah Skill yang Dibutuhkan per Job Category27
+242 [TableofFigures] Gambar 3. 7 Top 20 Skills yang Plaing Dibutuhkan Industri27
+243 [TableofFigures] Gambar 3. 8 Top 15 Soft Skills yang Dibutuhkan Industri28
+244 [TableofFigures] Gambar 3. 9 Top 5 IT Skills per Kategori Pekerjaan28
+245 [TableofFigures] Gambar 3. 10 Heatmap Skill Overlap antar Job Category29
+246 [TableofFigures] Gambar 3. 11 Distribusi Tag Entitas NER (Non-O)30
+247 [TableofFigures] Gambar 3. 12 K-Fold Cross Validation (k=5, StratifiedKFold), Random Forest (V1)37
+248 [TableofFigures] Gambar 3. 13 Perbandingan Perfoma Model (V1)38
+249 [TableofFigures] Gambar 3. 14 Perbandingan Perfoma Model (V2)39
+250 [TableofFigures] Gambar 3. 15 Top 20 Feature Importance, Random Forest(v1)41
+251 [TableofFigures] Gambar 3. 16 Perbandingan Performa Model  v1 vs v245
+252 [TableofFigures] Gambar 3. 17 Confusion Matrix (V1)47
+253 [TableofFigures] Gambar 3. 18 Confusion Matrix (Normalized) v1 vs v249
+255 [Heading1] DAFTAR LAMPIRAN
+257 [TableofFigures] Lampiran 1 Listing Programn – API Backend (main,py)L-1
+258 [TableofFigures] Lampiran 2 Listing Program Schemas API (schemas.py)L-6
+259 [TableofFigures] Lampiran 3 Listing Program Model Service (model_service.py)L-8
+260 [TableofFigures] Lampiran 4 Listing Program – Gap & Recommend Service (gap_service.py)L-11
+261 [TableofFigures] Lampiran 5 Listing Program – CV Service / NLP Pipeline (cv_service.py)L-13
+262 [TableofFigures] Lampiran 6 Listing Program – Data Service (data_service.py)L-19
+263 [TableofFigures] Lampiran 7 Output Aplikasi ElvitL-20
+266 [Heading1] 1. PENDAHULUAN
+268 [Heading2] 1.1. Latar Belakang
+276 [Heading2] 1.2. Ruang Lingkup
+279 [Heading2] 1.3. Tujuan Penelitian
+281 [ListParagraph] Merancang dan mengembangkan arsitektur sistem deteksi kesenjangan kompetensi pada bidang teknologi informasi yang mampu memproses data profil profesional dan deskripsi pekerjaan secara otomatis menggunakan pendekatan natural language processing (NLP) dan machine learning.
+282 [ListParagraph] Mengidentifikasi dan menentukan algoritma klasifikasi yang optimal dalam mengklasifikasikan tingkat kompetensi IT, dengan membandingkan beberapa metode seperti Random Forest, Support Vector Machine, XGBoost, serta model berbasis BERT berdasarkan metrik evaluasi seperti akurasi, precision, recall, da
+283 [ListParagraph] Mengembangkan modul rekomendasi keterampilan yang dipersonalisasi, menggunakan pendekatan hybrid recommendation system yang mengombinasikan content-based filtering dan collaborative filtering, untuk menghasilkan rekomendasi pengembangan kompetensi yang relevan berdasarkan hasil deteksi kesenjangan.
+284 [ListParagraph] Mengevaluasi kinerja sistem secara menyeluruh, baik dari aspek akurasi model klasifikasi maupun kualitas rekomendasi yang dihasilkan, sehingga dapat diketahui tingkat efektivitas sistem dalam mendeteksi kesenjangan kompetensi dan memberikan rekomendasi keterampilan pada konteks industri IT di Indone
+286 [Heading2] 1.4. Metode Penelitian
+289 [ListParagraph] Business Understanding
+291 [ListParagraph] Data Understanding
+293 [ListParagraph] Data Preparation
+295 [ListParagraph] Modeling
+297 [ListParagraph] Evaluation
+299 [ListParagraph] Deployment
+302 [Heading2] Sistematika Penulisan
+304 [ListParagraph] PENDAHULUAN
+305 [ListParagraph] Berisi tulisan yang mencakup latar belakang, batasan masalah, tujuan penelitian, metode penelitian, dan sistematika penulisan.
+306 [ListParagraph] LANDASAN TEORI
+307 [ListParagraph] Membahas konsep-konsep yang menjadi dasar penelitian, meliputi kesenjangan kompetensi, standar kompetensi kerja (SKKNI dan SFIA), natural language processing, ekstraksi fitur teks (TF-IDF), algoritma klasifikasi, serta kerangka kerja CRISP-DM.
+308 [ListParagraph] PEMBAHASAN DAN IMPLEMENTASI
+309 [ListParagraph] Menguraikan gambaran umum penelitian, perancangan sistem, serta tahapan CRISP-DM yang meliputi business understanding, data understanding, data preparation, modeling, evaluasi, dan deployment sistem ElvIT.
+310 [ListParagraph] PENUTUP
+311 [ListParagraph] Menyajikan kesimpulan dari penelitian serta saran untuk pengembangan lebih lanjut.
+313 [Heading1] TINJAUAN PUSTAKA
+315 [Heading2] 2.1. Kesenjangan Kompetensi (Skill Gap)
+319 [Heading2] 2.2. Standar Kompetensi Kerja
+321 [Heading3] 2.2.1. SKKNI (Standar Kompetensi Kerja Nasional Indonesia)
+322 [] SKKNI merupakan rumusan kemampuan kerja yang mencakup aspek pengetahuan, keterampilan, dan sikap kerja yang relevan dengan pelaksanaan tugas serta syarat jabatan yang ditetapkan sesuai dengan ketentuan perundang-undangan yang berlaku di Indonesia. Menurut (Kementerian Ketenagakerjaan RI, 2012), SKKN
+324 [Heading3] 2.2.2. SFIA (Skills Framework for the Information Age)
+327 [Heading2] 2.3. Natural Language Processing (NLP)
+330 [Heading3] 2.3.1. Text Preprocessing
+333 [Heading2] 2.4. Ekstraksi Fitur Teks
+334 [] INI HAPUS AJA, LANGSUNG MASUK TF IFDF 2.4 SAMA IDBERT 2.5
+335 [Heading3] 2.4.1. TF-IDF (Term Frequency-Inverse Document Frequency)
+337 [Heading3] 2.4.2. Word Embedding dan IndoBERT
+339 [Heading2] 2.5. Algoritma Klasifikasi
+340 [] JELASIN ALGORITMA KLASIFIKASI NYA SAAAAAAA
+341 [Heading3] 2.5.1. Random Forest
+343 [Heading3] 2.5.2. Support Vector Machine (SVM)
+345 [Heading3] 2.5.3. XGBoost (Extreme Gradient Boosting)
+347 [Heading3] 2.5.4. Model Berbasis BERT untuk Klasifikasi
+349 [Heading3] 2.5.5. Logistic Regression
+351 [Heading3] 2.5.6. Algoritma LightGBM
+353 [Heading2] 2.6. Sistem Rekomendasi
+354 [] KASIH PENJELASAN JUGA
+355 [Heading3] 2.6.1. Content-Based Filtering
+357 [Heading3] 2.6.2. Collaborative Filtering
+359 [Heading3] 2.6.3. Hybrid Recommendation System
+361 [Heading2] 2.7. CRISP-DM (Cross-Industry Standard Process for Data Mining)
+363 [Heading2] 2.8. Evaluasi Model
+367 [Heading1] PEMBAHASAN DAN IMPLEMENTASI
+369 [Heading2] 3.1 Gambaran Umum Penelitian
+375 [Caption] Tabel 3. 1 Tahapan Penelitian
+399 [] REST API FastAPI dan SPA frontend React
+401 [Heading2] 3.2 Perancangan Sistem
+404 [Heading3] 3.2.1 Workflow Diagram Program
+408 [Caption] Gambar 3. 1 Workflow Diagram Program ElvIT
+409 [Heading3] 3.2.2 Use Case Diagram
+413 [Caption] Gambar 3. 2 Use Case Diagram ElvIT
+415 [Heading3] 3.2.3 Activity Diagram
+419 [Caption] Gambar 3. 3 Activity Diagram Scan CV
+421 [Caption] Gambar 3. 4 Activity Diagram Self Assessment
+425 [Caption] Gambar 3. 5 Activity Diagram Input Manual
+427 [Heading2] 3.3 Business Understanding
+430 [Heading3] 3.3.1 Identifikasi Masalah
+434 [Heading3] 3.3.2 Tujuan Bisnis
+438 [Heading3] 3.3.3 Tujuan Teknis
+442 [Heading3] 3.3.4 Kriteria Keberhasilan
+446 [Heading2] 3.4 Data Understanding
+449 [Heading3] 3.4.1 Sumber dan Deskripsi Dataset
+452 [Caption] Tabel 3. 2 Dataset yang Digunakan
+470 [Heading3] 3.4.2 Informasi Umum Dataset
+473 [Caption] Tabel 3. 3 Kolom Kunci Dataset Lowongan Kerja
+499 [Heading3] 3.4.3 Statistik Deskriptif
+502 [Caption] Tabel 3. 4 Statistik Deskriptif yang Dianalisis
+528 [Heading3] 3.4.4 Exploratory Data Analysis (EDA)
+533 [Caption] Gambar 3. 6 Proporsi dan Distribusi Seniority Level
+536 [Caption] Gambar 3. 7 Distribusi Seniority Level per Job
+538 [Caption] Gambar 3. 8 Distribusi Jumlah Skill yang Dibutuhkan per Job Category
+541 [Caption] Gambar 3. 9 Top 20 Skills yang Plaing Dibutuhkan Industri
+543 [Caption] Gambar 3. 10 Top 15 Soft Skills yang Dibutuhkan Industri
+546 [Caption] Gambar 3. 11 Top 5 IT Skills per Kategori Pekerjaan
+548 [Caption] Gambar 3. 12 Heatmap Skill Overlap antar Job Category
+551 [Caption] Gambar 3. 13 Distribusi Tag Entitas NER (Non-O)
+553 [Heading2] 3.5 Data Preparation
+556 [Heading3] 3.5.1 Pembentukan Fitur
+559 [Caption] Tabel 3. 5 Fitur Engineered yang Digunakan
+588 [Heading3] 3.5.2 Pembersihan Data
+592 [Heading3] 3.5.3 Feature Selection dan Encoding
+595 [Caption] Tabel 3. 6 Encoding Target Seniority
+613 [Heading3] 3.5.4 Pembagian Data Latih-Uji
+616 [Heading3] 3.5.5 Normalisasi Fitur
+619 [Heading2] 3.6 Modeling
+622 [Heading3] 3.6.1 Penentuan Fitur dan Target
+625 [Heading3] 3.6.2 Pembagian Data dan Normalisasi
+628 [Heading3] 3.6.3 Algoritma yang Digunakan
+631 [Caption] Tabel 3. 7 Algoritma yang Dibandingkan
+657 [Heading3] 3.6.4 Hyperparameter Tuning / Cross Validation
+662 [Caption] Gambar 3. 14 K-Fold Cross Validation (k=5, StratifiedKFold), Random Forest (V1)
+663 [Heading3] 3.6.5 Evaluasi Model
+667 [Caption] Gambar 3. 15 Perbandingan Perfoma Model (V1)
+669 [Caption] Tabel 3. 8 Perbandingan Model Versi 1
+692 [Caption] Gambar 3. 16 Perbandingan Perfoma Model (V2)
+694 [Caption] Tabel 3. 9 Perbandingan Model Versi 2
+720 [Heading3] 3.6.6 Model Final
+723 [Caption] Tabel 3. 10 Artefak Model Final
+743 [Heading3] 3.6.7 Analisis Fitur Penting
+747 [Caption] Gambar 3. 17 Top 20 Feature Importance, Random Forest(v1)
+749 [Caption] Tabel 3. 11 Contoh Interpretasi Feature Importance
+769 [Heading3] 3.6.8 Penyimpanan Model
+772 [Heading2] 3.7 Evaluasi
+775 [Heading3] 3.7.1 Tujuan Evaluasi
+778 [Heading3] 3.7.2 Metrik Evaluasi
+781 [Caption] Tabel 3. 12 Metrik Evaluasi Model
+807 [Heading3] 3.7.3 Hasil Perbandingan Model
+811 [Caption] Gambar 3. 18 Perbandingan Performa Model  v1 vs v2
+813 [Heading3] 3.7.4 Evaluasi Model Terpilih
+816 [Heading3] 3.7.5 Confusion Matrix
+820 [Caption] Gambar 3. 19 Confusion Matrix (V1)
+822 [Caption] Tabel 3. 13 Format Confusion Matrix Multi-Kelas
+844 [Heading3] 3.7.6 Evaluasi AUC-ROC
+847 [Heading3] 3.7.7 Analisis Hasil Evaluasi
+851 [Caption] Gambar 3. 20 Confusion Matrix (Normalized) v1 vs v2
+853 [Heading3] 3.7.8 Kesimpulan Evaluasi
+856 [Heading2] 3.8 Implementasi Sistem (Deployment)
+859 [Heading3] 3.8.1 Implementasi Backend
+862 [Caption] Tabel 3. 14 Endpoint API ElvIT
+892 [Heading3] 3.8.2 Implementasi Frontend
+896 [Caption] Tabel 3. 15 Halaman Utama Frontend
+922 [Heading3] 3.8.3 Pipeline NLP
+925 [Heading3] 3.8.4 Algoritma Deteksi Kesenjangan dan Rekomendasi
+929 [Caption] Tabel 3. 16 Contoh Input dan Output Fitur Scan CV
+935 [] CV PDF berisi skill Python, SQL, React, Docker
+952 [Caption] Tabel 3. 17 Contoh Input dan Output Self Assessment
+972 [Caption] Tabel 3. 18 Contoh Input dan Output Manual Skill Check
+992 [Heading3] 3.8.5 Black Box Testing
+994 [Caption] Tabel 3. 19 Black Box Testing ElvIT
+1077 [Heading3] 3.8.7 Kesimpulan Implementasi
+1083 [Heading1] 4. PENUTUP
+1085 [Heading2] 4.1 Kesimpulan
+1091 [Heading2] 4.2 Saran
+1096 [Heading1] DAFTAR PUSTAKA
+1114 [] SFIA Foundation. 2021. SFIA 8: Skills Framework for the Information Age. London: SFIA Foundation. Diakses dari https://sfia-online.org/en/sfia-8 tanggal 23 Juni 2026.
+1117 [Heading1] LAMPIRAN
+1119 [Caption] Lampiran 1 Listing Programn – API Backend (main,py)
+1303 [Caption] Lampiran 2 Listing Program Schemas API (schemas.py)
+1366 [Caption] Lampiran 3 Listing Program Model Service (model_service.py)
+1380 [] SCALER_PATH = os.path.join(FINAL_DIR, 'scaler.pkl')
+1383 [] FEATURE_CONFIG_PATH = os.path.join(FINAL_DIR, 'feature_config.json')
+1386 [] SENIOR_SKILLS_KW = [
+1508 [Caption] Lampiran 4 Listing Program – Gap & Recommend Service (gap_service.py)
+1510 [ListParagraph] detect_skill_gap, yang membandingkan skill pengguna dengan benchmark top-N skill pada kategori pekerjaan target menggunakan pencocokan substring.
+1511 [ListParagraph] recommend_skills, yang menghitung skor prioritas rekomendasi berdasarkan frekuensi kemunculan skill pada kategori target dan secara global di seluruh kategori pekerjaan.
+1578 [Caption] Lampiran 5 Listing Program – CV Service / NLP Pipeline (cv_service.py)
+1580 [ListParagraph] ekstraksi teks menggunakan PyMuPDF (fitz)
+1581 [ListParagraph] pencocokan eksak dan substring terhadap daftar skill yang diketahui
+1582 [ListParagraph] ekstraksi noun-chunk menggunakan model NLP spaCy (en_core_web_sm) sebagai lapisan fallback tambahan.
+1785 [Caption] Lampiran 6 Listing Program – Data Service (data_service.py)
+1818 [Caption] Lampiran 7 Output Aplikasi Elvit
+1820 [Caption] Gambar 1. Tampilan Beranda ElvIT
+1823 [Caption] Gambar 2. Halaman Self Assessment
+1825 [Caption] Gambar 3. Input Self Assessment
+1827 [Caption] Gambar 4. Output Gap Self Assessment
+1829 [Caption] Gambar 5. Output Perbandingan Skill Self Assessment
+1831 [Caption] Gambar 6. Output Rekomendasi Belajar Self Assessment
+1834 [Caption] Gambar 7. Halaman Manual Check
+1836 [Caption] Gambar 8. Input Manual Check
+1838 [Caption] Gambar 9. Output Gap Manual Check
+1840 [Caption] Gambar 10. Output Perbandingan Skill Manual Check
+1842 [Caption] Gambar 11. Output Rekomendasi Belajar Manual Check
+1845 [Caption] Gambar 12. Halaman Scan CV
+1847 [Caption] Gambar 13. Input CV
+1849 [Caption] Gambar 14. Output Skill yang Dimiliki
+1851 [Caption] Gambar 15. Input Kategori Pekerjaan
+1853 [Caption] Gambar 16. Output Gap Scan CV
+1855 [Caption] Gambar 17. Output Perbandingan Skill Scan CV
+1857 [Caption] Gambar 18. Output Rekomendasi Belajar Scan CV
+1859 [Caption] Gambar 19. Tampilan Halaman Tentang ElvIT

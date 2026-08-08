@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-08-07 13:59:48",
+  "best_model_name": "OneVsRest Logistic Regression",
+  "target": "skills (multi-label)",
+  "f1_at_10": 0.1831,
+  "n_candidate_skills": 150,
+  "metrics": {
+    "P@5": 0.1621,
+    "R@5": 0.3059,
+    "F1@5": 0.2119,
+    "P@10": 0.116,
+    "R@10": 0.434,
+    "F1@10": 0.1831,
+    "P@15": 0.0949,
+    "R@15": 0.5098,
+    "F1@15": 0.16,
+    "Hamming": 0.0196
+  }
+}

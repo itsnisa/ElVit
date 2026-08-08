@@ -1,0 +1,24 @@
+flowchart TD
+    A([Mulai]) --> B[Buka Halaman Utama ElvIT]
+    B --> C{Pilih Metode Input Skill}
+    
+    C -->|Scan CV| D[Upload File CV PDF]
+    D --> E[Sistem: Ekstraksi Teks dengan PyMuPDF]
+    E --> F[Sistem: NLP Parsing dengan spaCy]
+    
+    C -->|Self Assessment| G[Isi Kuesioner 4 Subdomain IT]
+    G --> H[Sistem: Mapping Level Skill ke Data]
+    
+    C -->|Input Manual| I[Ketik Skill Secara Manual]
+    I --> J[Sistem: Simpan dalam bentuk Tags]
+    
+    F --> K[Pengguna: Pilih Target Job Category]
+    H --> K
+    J --> K
+    
+    K --> L[Sistem: Memuat Data Benchmark & Model ML]
+    L --> M[Sistem: Analisis Gap Skill User vs Benchmark]
+    M --> N[Sistem: Hitung Priority Score]
+    N --> O[Sistem: Tampilkan Hasil Visual (Radar Chart)]
+    O --> P[Sistem: Tampilkan Rekomendasi Belajar Prioritas]
+    P --> Q([Selesai])
