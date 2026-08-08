@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import elvitIcon from '@/assets/elvit-icon.svg'
 
 const NAV_ITEMS = [
   { to: '/',               label: 'Beranda',      icon: '⌂', desc: 'Halaman utama ElvIT' },
@@ -42,7 +43,7 @@ export default function Navbar() {
     <header className="navbar">
       <nav className="nav-inner">
         <Link to="/" className="logo" aria-label="ElvIT Home">
-          <img src="src/assets/elvit-icon.svg" alt="ElvIT Logo" className="nav-logo-img" />
+          <img src={elvitIcon} alt="ElvIT Logo" className="nav-logo-img" />
         </Link>
 
         {/* Desktop links */}
@@ -79,7 +80,7 @@ export default function Navbar() {
         {/* Drawer header */}
         <div className="mm-header">
           <div className="mm-brand">
-            <img src="src/assets/elvit-icon.svg" alt="ElvIT" className="mm-brand-logo" />
+            <img src={elvitIcon} alt="ElvIT" className="mm-brand-logo" />
             <div className="mm-brand-meta">
               <span className="mm-brand-name">ElvIT</span>
               <span className="mm-brand-sub">Skill Gap Detection System</span>
