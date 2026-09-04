@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
   "Business Analysis",
   "Cybersecurity",
   "Data Analytics & BI",
@@ -23,4 +24,31 @@
   "Software Development",
   "Solution Architecture",
   "UI/UX Design"
+=======
+  "Artificial Intelligence",
+  "Big Data Engineer",
+  "Business Analyst",
+  "Business Intelligence Analyst",
+  "Cloud Architect",
+  "Cloud Services Developer",
+  "Data Analyst",
+  "Data Architect",
+  "Data Engineer",
+  "Data Quality Manager",
+  "Data Scientist",
+  "Data Visualization Expert",
+  "Data Warehousing",
+  "Data and Analytics Manager",
+  "Database Administrator",
+  "Deep Learning",
+  "Full Stack Developer",
+  "IT Consultant",
+  "IT Systems Administrator",
+  "Information Security Analyst",
+  "Machine Learning",
+  "Network Architect",
+  "Statistics",
+  "Technical Operations",
+  "Technology Integration"
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
 ]

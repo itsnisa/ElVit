@@ -1,0 +1,34 @@
+@startuml
+|Pengguna|
+start
+:Mengakses Aplikasi ElvIT;
+:Memilih Metode Input;
+split
+   :Upload CV (PDF);
+   |Sistem|
+   :Ekstraksi Teks (PyMuPDF);
+   :Parsing NLP (spaCy);
+split again
+   |Pengguna|
+   :Isi Kuesioner (4 Domain);
+   |Sistem|
+   :Konversi Level ke Skill Terdaftar;
+split again
+   |Pengguna|
+   :Input Skill Manual;
+   |Sistem|
+   :Simpan Skill Tags;
+end split
+|Pengguna|
+:Pilih Kategori Pekerjaan Target;
+|Sistem|
+:Muat Benchmark Data & Model ML;
+:Bandingkan Skill User vs Benchmark;
+:Hitung Gap Score & Priority Score;
+:Hasilkan Visualisasi (Radar Chart & Ring Score);
+:Susun Tabel Rekomendasi Prioritas;
+|Pengguna|
+:Melihat Hasil Analisis;
+:Melihat Rekomendasi Belajar;
+stop
+@enduml

@@ -27,7 +27,11 @@ const MOCK_SKILLS_DATA = {
     { name: 'Network Security', desc: 'Keamanan jaringan dan firewall' },
     { name: 'IAM', desc: 'Identity and Access Management' },
   ],
+<<<<<<< HEAD
   'DevOps & Cloud': [
+=======
+  'Cloud Computing': [
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
     { name: 'AWS', desc: 'Layanan komputasi awan Amazon' },
     { name: 'Docker', desc: 'Containerization aplikasi' },
     { name: 'Kubernetes', desc: 'Orkestrasi container' },

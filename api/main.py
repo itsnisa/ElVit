@@ -6,12 +6,16 @@ from contextlib import asynccontextmanager
 import os
 
 from .services.model_service import load_artifacts, predict_skills
+<<<<<<< HEAD
 from .services.data_service import (
     load_jobs_data,
     build_job_category_skills,
     load_model_categories,
     load_extended_skills,
 )
+=======
+from .services.data_service import load_jobs_data, build_job_category_skills, get_available_categories
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
 from .services.cv_service import extract_text_from_pdf, extract_skills_from_text
 from .schemas import (
     GapDetectRequest, GapDetectResponse, SkillItem,
@@ -25,8 +29,12 @@ async def lifespan(app: FastAPI):
     load_artifacts()
     df = load_jobs_data()
     app.state.job_category_skills = build_job_category_skills(df)
+<<<<<<< HEAD
     app.state.available_categories = sorted(load_model_categories())
     app.state.known_skills = list(load_extended_skills())
+=======
+    app.state.available_categories = get_available_categories(app.state.job_category_skills)
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
     yield
 
 
@@ -147,8 +155,15 @@ async def parse_cv(file: UploadFile = File(...)):
     except RuntimeError as exc:
         raise HTTPException(status_code=503, detail=str(exc))
 
+<<<<<<< HEAD
     # Collect known skills from the model's candidate vocabulary
     all_known_skills = app.state.known_skills
+=======
+    # Collect all known skills across every job category
+    all_known_skills: list = []
+    for cat_skills in app.state.job_category_skills.values():
+        all_known_skills.extend(cat_skills.keys())
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
 
     result = extract_skills_from_text(raw_text, all_known_skills)
 

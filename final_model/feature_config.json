@@ -1,6 +1,12 @@
 {
+<<<<<<< HEAD
   "n_skills": 250,
   "n_categories": 24,
   "n_features": 274,
+=======
+  "n_skills": 150,
+  "n_categories": 25,
+  "n_features": 175,
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
   "top_n_default": 15
 }

@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+<<<<<<< HEAD
 import json
 from collections import defaultdict
 import os
@@ -10,6 +11,13 @@ JOBS_CSV = os.path.join(DATA_DIR, 'JD2Skills_processed.csv')
 FINAL_DIR = os.path.join(BASE_DIR, 'final_model')
 CATEGORIES_PATH = os.path.join(FINAL_DIR, 'categories.json')
 CANDIDATE_PATH = os.path.join(FINAL_DIR, 'candidate_skills.json')
+=======
+from collections import defaultdict
+import os
+
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'use_dataset')
+JOBS_CSV = os.path.join(DATA_DIR, 'JobsDatasetProcessed.csv')
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
 
 
 def load_jobs_data():
@@ -17,6 +25,7 @@ def load_jobs_data():
     return df_jobs
 
 
+<<<<<<< HEAD
 CURATED_EXTRA_SKILLS = [
     'docker', 'kubernetes', 'aws', 'azure', 'gcp', 'google cloud', 'amazon web services',
     'power bi', 'tableau', 'apache spark', 'pandas', 'numpy', 'scikit-learn',
@@ -55,6 +64,8 @@ def load_extended_skills():
     return sorted(skills)
 
 
+=======
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
 def build_job_category_skills(df_jobs):
     job_category_skills = defaultdict(lambda: defaultdict(int))
     for _, row in df_jobs.iterrows():

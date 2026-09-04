@@ -58,6 +58,7 @@ export const recommend = async (
 }
 
 export const DEFAULT_JOB_CATEGORIES = [
+<<<<<<< HEAD
   'Business Analysis',
   'Cybersecurity',
   'Data Analytics & BI',
@@ -82,4 +83,16 @@ export const DEFAULT_JOB_CATEGORIES = [
   'Software Development',
   'Solution Architecture',
   'UI/UX Design',
+=======
+  'data analyst',
+  'data scientist',
+  'data engineer',
+  'machine learning engineer',
+  'software engineer',
+  'frontend developer',
+  'backend developer',
+  'devops engineer',
+  'cloud engineer',
+  'cyber security analyst',
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
 ]

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    runtime: python
+    name: skill-gap-api
+    buildCommand: chmod +x render_build.sh && ./render_build.sh
+    startCommand: python run_api.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.12"

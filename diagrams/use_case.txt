@@ -1,0 +1,40 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+skinparam usecase {
+  BackgroundColor LightBlue
+  BorderColor DarkBlue
+}
+
+actor "Pengguna" as user
+
+rectangle "Sistem Deteksi Kesenjangan IT (ElvIT)" {
+  usecase "Akses Halaman Utama" as UC1
+  
+  usecase "Pilih Metode Input" as UC2
+  usecase "Melakukan Scan CV" as UC2A
+  usecase "Melakukan Self Assessment" as UC2B
+  usecase "Memasukkan Skill Manual" as UC2C
+  
+  usecase "Ekstraksi Skill (NLP / Mapping)" as UC3
+  usecase "Memilih Target Pekerjaan" as UC4
+  usecase "Melihat Analisis Kesenjangan (Gap)" as UC5
+  usecase "Melihat Rekomendasi Belajar" as UC6
+}
+
+user --> UC1
+user --> UC2
+
+UC2 <|-- UC2A
+UC2 <|-- UC2B
+UC2 <|-- UC2C
+
+UC2A ..> UC3 : <<include>>
+UC2B ..> UC3 : <<include>>
+UC2C ..> UC3 : <<include>>
+
+UC3 ..> UC4 : <<include>>
+UC4 ..> UC5 : <<include>>
+UC5 ..> UC6 : <<include>>
+
+@enduml

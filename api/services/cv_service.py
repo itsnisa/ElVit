@@ -6,12 +6,19 @@ Handles CV (PDF) parsing and NLP-based skill extraction.
 Pipeline:
   1. PyMuPDF  → extract raw text from PDF bytes
   2. spaCy    → tokenise, lemmatise, extract noun-chunks
+<<<<<<< HEAD
   3. Strict matching against the job-dataset skill list:
        a. Exact token match (with plural normalisation)
        b. Exact noun-chunk match (multi-word phrases)
 
 Strict matching guarantees every detected skill's word (or its base form)
 actually appears in the CV text – no substring / partial-overlap guesses.
+=======
+  3. Multi-layer matching against the job-dataset skill list:
+       a. Exact match
+       b. Substring / token containment
+       c. Noun-chunk heuristic fallback
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
 """
 
 import re
@@ -64,12 +71,21 @@ def _clean(text: str) -> str:
 
 
 def _tokenise(text: str) -> List[str]:
+<<<<<<< HEAD
     """Split on whitespace and common CV delimiters, return lowercase tokens."""
     tokens = re.split(r"[\s\t\n,;|•·▪▸►()\[\]/]+", text)
     result = []
     for t in tokens:
         t = t.strip().lower()
         if 2 <= len(t) <= 120:
+=======
+    """Split on common CV delimiters and return lowercase tokens."""
+    tokens = re.split(r"[\n,;|•·▪▸►\t]+", text)
+    result = []
+    for t in tokens:
+        t = t.strip().lower()
+        if 2 <= len(t) <= 60:
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
             result.append(t)
     return result
 
@@ -101,6 +117,7 @@ def _build_known_index(known_skills: List[str]) -> Dict[str, str]:
     return index
 
 
+<<<<<<< HEAD
 # Common CV words never substring-matched alone (prevents noise like
 # "data" -> "database administration" or "experience" -> "user experience")
 _COMMON_WORDS = {
@@ -127,17 +144,24 @@ def _plural_form(word: str) -> str:
     return word
 
 
+=======
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
 def _exact_and_substring_match(
     tokens: List[str],
     known_index: Dict[str, str],
 ) -> Tuple[List[str], set]:
+<<<<<<< HEAD
     """Strict layer: exact token match only, with plural normalisation.
     No substring/containment guesses (prevents false positives like
     'engineer' -> 'engineering' or 'spark' -> 'pyspark')."""
+=======
+    """Layer 1 & 2: exact match + substring containment."""
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
     found: Dict[str, str] = {}  # norm → original
     matched_knowns: set = set()
 
     for token in tokens:
+<<<<<<< HEAD
         if token in matched_knowns:
             continue
         # exact match wins; plural base form is accepted as a variant
@@ -145,6 +169,25 @@ def _exact_and_substring_match(
         if base in known_index and base not in matched_knowns:
             found[base] = known_index[base]
             matched_knowns.add(base)
+=======
+        # exact
+        if token in known_index:
+            found[token] = known_index[token]
+            matched_knowns.add(token)
+            continue
+
+        # substring: token contained in a known skill or vice versa
+        for known_norm, known_orig in known_index.items():
+            if known_norm in matched_knowns:
+                continue
+            if (
+                (len(token) >= 3 and token in known_norm)
+                or (len(known_norm) >= 3 and known_norm in token)
+            ):
+                found[known_norm] = known_orig
+                matched_knowns.add(known_norm)
+                break
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
 
     return list(found.values()), matched_knowns
 
@@ -168,6 +211,19 @@ def _spacy_noun_chunk_match(
 
         if chunk_text in known_index and chunk_text not in already_found:
             extra[chunk_text] = known_index[chunk_text]
+<<<<<<< HEAD
+=======
+            continue
+
+        # partial overlap with known skills (for multi-word phrases)
+        for known_norm, known_orig in known_index.items():
+            if known_norm in already_found or known_norm in extra:
+                continue
+            if len(known_norm.split()) > 1:
+                if known_norm in chunk_text or chunk_text in known_norm:
+                    extra[known_norm] = known_orig
+                    break
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
 
     return list(extra.values())
 
@@ -200,6 +256,7 @@ def extract_skills_from_text(
     known_index = _build_known_index(known_skills)
     tokens = _tokenise(cleaned_text)
 
+<<<<<<< HEAD
     # Layer 1: exact token match (+ plurals)
     skills_l1, matched_set = _exact_and_substring_match(tokens, known_index)
 
@@ -208,6 +265,13 @@ def extract_skills_from_text(
     # boundaries intact – otherwise "machine learning and pandas"
     # collapses into one conjoined chunk that never matches exactly.
     skills_l3 = _spacy_noun_chunk_match(text, known_index, matched_set)
+=======
+    # Layer 1 + 2: exact & substring
+    skills_l1, matched_set = _exact_and_substring_match(tokens, known_index)
+
+    # Layer 3: spaCy noun chunks (additive)
+    skills_l3 = _spacy_noun_chunk_match(cleaned_text, known_index, matched_set)
+>>>>>>> 04223921dba98899596735d7a97cb1de184e3534
 
     # Merge, deduplicate, cap
     all_skills_norm: Dict[str, str] = {}

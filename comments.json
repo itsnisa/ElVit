@@ -1,0 +1,1501 @@
+{
+  "file": "Revisi 31072026_Draft PI - Annisa Ismidabilah.docx",
+  "comment_count": 65,
+  "comments": [
+    {
+      "id": "0",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T08:53:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Periksa kembali buku pedoman penulisan pada cover atau halaman sampul.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "UNIVERSITAS GUNADARMA\nFAKULTAS TEKNOLOGI INDUSTRI"
+            },
+            {
+              "where": "end",
+              "text": "UNIVERSITAS GUNADARMA\nFAKULTAS TEKNOLOGI INDUSTRI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T08:54:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Periksa kembali buku pedoman penulisan",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "PERNYATAAN ORISINALITAS DAN PUBLIKASI"
+            },
+            {
+              "where": "end",
+              "text": "PERNYATAAN ORISINALITAS DAN PUBLIKASI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T08:55:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Justify",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Menyatakan bahwa tulisan ini adalah merupakan hasil karya saya sendiri dan dapat dipublikasikan sepenuhnya oleh Universitas Gunadarma. Segala kutipan dalam bentuk apa pun telah mengikuti kaidah, etika"
+            },
+            {
+              "where": "end",
+              "text": "Menyatakan bahwa tulisan ini adalah merupakan hasil karya saya sendiri dan dapat dipublikasikan sepenuhnya oleh Universitas Gunadarma. Segala kutipan dalam bentuk apa pun telah mengikuti kaidah, etika"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T08:55:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Periksa kembali buku pedoman penulisan pada lembar pengesahan",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "LEMBAR PENGESAHAN"
+            },
+            {
+              "where": "end",
+              "text": "LEMBAR PENGESAHAN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T08:58:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Periksa kembali buku pedoman penulisan pada Abstrak",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "ABSTRAK"
+            },
+            {
+              "where": "end",
+              "text": "ABSTRAK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T08:58:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Rapikan lagi",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Penelitian ini bertujuan mengembangkan sistem berbasis web bernama ElvIT yang mampu mendeteksi kesenjangan kompetensi (skill gap) teknis di bidang Teknologi Informasi dan memberikan rekomendasi skill "
+            },
+            {
+              "where": "end",
+              "text": "Penelitian ini bertujuan mengembangkan sistem berbasis web bernama ElvIT yang mampu mendeteksi kesenjangan kompetensi (skill gap) teknis di bidang Teknologi Informasi dan memberikan rekomendasi skill "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T08:59:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Periksa kembali buku pedoman penulisan pada Abstrak",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "ABSTRACT"
+            },
+            {
+              "where": "end",
+              "text": "ABSTRACT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T08:59:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "rapikan",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "This study aims to develop a web-based system called ElvIT that can detect technical skill gaps in the field of Information Technology and provide personalized skill recommendations using a hybrid app"
+            },
+            {
+              "where": "end",
+              "text": "This study aims to develop a web-based system called ElvIT that can detect technical skill gaps in the field of Information Technology and provide personalized skill recommendations using a hybrid app"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:00:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Periksa kembali buku pedoman penulisan pada bagian Daftar Isi, Daftar Gambar, Daftar Tabel, dan Daftar Lampiran",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "DAFTAR ISI"
+            },
+            {
+              "where": "end",
+              "text": "DAFTAR ISI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:01:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Gunakan Mendeley untuk melakukan sitasi, periksa lagi di semua sumber acuan yang tercantum",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Transformasi digital yang terjadi secara global telah mendorong perubahan signifikan pada kebutuhan tenaga kerja di bidang teknologi informasi. World Economic Forum memproyeksikan bahwa pada tahun 202"
+            },
+            {
+              "where": "end",
+              "text": "Transformasi digital yang terjadi secara global telah mendorong perubahan signifikan pada kebutuhan tenaga kerja di bidang teknologi informasi. World Economic Forum memproyeksikan bahwa pada tahun 202"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "author": "Lenovo Slim 5",
+      "date": "2026-05-04T15:16:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Cantumkan penelitian-penelitian yang dimaksud itu yang mana disebutkan nama penelitinya, apa yang dibuat, metodenya bagaimana.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Namun, penelitian yang ada umumnya masih terbatas pada satu aspek, yaitu hanya berfokus pada deteksi kesenjangan kompetensi atau pada sistem rekomendasi pembelajaran secara terpisah. Sebagai contoh, G"
+            },
+            {
+              "where": "end",
+              "text": "Namun, penelitian yang ada umumnya masih terbatas pada satu aspek, yaitu hanya berfokus pada deteksi kesenjangan kompetensi atau pada sistem rekomendasi pembelajaran secara terpisah. Sebagai contoh, G"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "author": "Lenovo Slim 5",
+      "date": "2026-05-04T15:17:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Berikan kepanjangannya.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Berdasarkan permasalahan tersebut, penelitian ini bertujuan untuk mengembangkan sistem terintegrasi yang mampu mendeteksi kesenjangan kompetensi sekaligus memberikan rekomendasi pengembangan keterampi"
+            },
+            {
+              "where": "end",
+              "text": "Berdasarkan permasalahan tersebut, penelitian ini bertujuan untuk mengembangkan sistem terintegrasi yang mampu mendeteksi kesenjangan kompetensi sekaligus memberikan rekomendasi pengembangan keterampi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:14:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Bagian ini dibuat poin-poin saja deh agar lebih ringkas dan jelas ruang lingkupnya bagaimana",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "1.2. Ruang Lingkup"
+            },
+            {
+              "where": "end",
+              "text": "1.2. Ruang Lingkup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:16:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "TINJAUAN PUSTAKA",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "TINJAUAN PUSTAKA"
+            },
+            {
+              "where": "end",
+              "text": "TINJAUAN PUSTAKA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:18:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Langsung saja ke  SKKNI, biasakan setiap sub bab minimal harus ada 1 paragraf penjelasan terlebih dahulu, tidak boleh kosong.\nPeriksa kembali sub bab yang belum ada penjelasannya.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "2.2. Standar Kompetensi Kerja"
+            },
+            {
+              "where": "end",
+              "text": "2.2. Standar Kompetensi Kerja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:19:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "2.4. Ekstraksi Fitur Teks"
+            },
+            {
+              "where": "end",
+              "text": "2.4. Ekstraksi Fitur Teks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:19:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Perlu ada penjelasan minimal 1 paragraf, periksa kembali apakah teori yang disampaikan sudah ada sumber referensinya atau belum",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "2.5. Algoritma Klasifikasi"
+            },
+            {
+              "where": "end",
+              "text": "2.5. Algoritma Klasifikasi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:27:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Lalu tahapan Crisp-DM nya dipakai untuk apa ya?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Secara kronologis, penelitian dilakukan melalui tujuh tahap INI JELASIN ULANG TENTANG TAHAPAN DARI CRIPSDM. Tahap pertama adalah akuisisi dataset lowongan kerja IT dari sumber LinkedIn, Jobstreet, dan"
+            },
+            {
+              "where": "end",
+              "text": "Secara kronologis, penelitian dilakukan melalui tujuh tahap INI JELASIN ULANG TENTANG TAHAPAN DARI CRIPSDM. Tahap pertama adalah akuisisi dataset lowongan kerja IT dari sumber LinkedIn, Jobstreet, dan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:11:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Tabel 3.1 perlu disebut atau dipanggil di dalam paragraf",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Tabel 3. 1 Tahapan Penelitian"
+            },
+            {
+              "where": "end",
+              "text": "Tabel 3. 1 Tahapan Penelitian"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:29:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Coba diperiksa kembalu ya, sebelumnya dikatakan menggunakan Crisp-DM di mana ada 6 tahapan, sedangkan di sini terdapat 7 tahapan dan proses tahapannya berbeda dengan Crisp-DM",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Tabel 3. 1 Tahapan Penelitian"
+            },
+            {
+              "where": "end",
+              "text": "Tabel 3. 1 Tahapan Penelitian"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:31:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Kenapa baru di awal kita sudah langsung tau yang dipilih adalah Random Forest v2, kemudian maksudnya v2 itu apa yah?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Perbandingan F1-Score dan pemilihan Random Forest v2"
+            },
+            {
+              "where": "end",
+              "text": "Perbandingan F1-Score dan pemilihan Random Forest v2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:50:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Kalau kamu menyebutnya flowchart hal ini belum sesuai dengan kaidah simbol2 dari flowchart, terutama pada decision node yang seharusnya hanya ada iya dan tidak.\nUbah saja judulnya jadi Workflow Diagram Sistem ElvIT.\nHilangkan kata2 flowchartnya.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gambar 3. 1 Workflow Diagram Program ElvIT"
+            },
+            {
+              "where": "end",
+              "text": "Gambar 3. 1 Workflow Diagram Program ElvIT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:54:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Pada use case gunakan kata kerja yang benar ya. Misalnya: Mengakses Halaman Utama, Memilih Metode Input (Tapi memilih metode input ini bukan suatu use case) bisa langsung di skip ke Memasukkan Skill Manual, Melakukan Self Assessment, atau melakukan scan CV.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gambar 3. 2 Use Case Diagram ElvIT"
+            },
+            {
+              "where": "end",
+              "text": "Gambar 3. 2 Use Case Diagram ElvIT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T09:58:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Ekstraksi Skill juga seprtinya tidak perlu, bisa langsung ke Memilih Target Pekerjaan, kemudian jadi 2 cabang melihat analisis dan melihat rekomendasi belajar",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gambar 3. 2 Use Case Diagram ElvIT"
+            },
+            {
+              "where": "end",
+              "text": "Gambar 3. 2 Use Case Diagram ElvIT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:12:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Setiap Gambar atau Tabel perlu diberikan penjelasan minimal 1 paragraf, dan Gambar atau Tabel perlu disebutkan Gambar berapanya atau Tabel berapanya ke dalam paragrafnya.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gambar 3. 3 Activity Diagram Scan CV"
+            },
+            {
+              "where": "end",
+              "text": "Gambar 3. 3 Activity Diagram Scan CV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:05:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Harusnya bagian ini belum disebutkan karena ini kan baru tahapan awal, kalau di bagian ini kamu berasumsi atau membuat sebuah threshold bahwa akurasi yang dihasilkan nanti harus di atas 0,85, itu tidak apa2. Tapi jika sudah langsung disebutkan bahwa model terbaiknya Random Forest dan skor akurasinya sudah keluar, itu tidak masuk akal karena ini baru tahap business understanding.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Kriteria keberhasilan penelitian ditentukan berdasarkan performa model, keberhasilan integrasi sistem, dan kegunaan hasil rekomendasi. Dari sisi model, penelitian dianggap berhasil apabila model final"
+            },
+            {
+              "where": "end",
+              "text": "Kriteria keberhasilan penelitian ditentukan berdasarkan performa model, keberhasilan integrasi sistem, dan kegunaan hasil rekomendasi. Dari sisi model, penelitian dianggap berhasil apabila model final"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:13:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Perlu disebutkan ke dalam Paragrafnya Tabel berapa.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Tabel 3. 2 Dataset yang Digunakan"
+            },
+            {
+              "where": "end",
+              "text": "Tabel 3. 2 Dataset yang Digunakan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:13:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Perlu disebutkan ke dalam paragrafnya Tabel berapa",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Tabel 3. 3 Kolom Kunci Dataset Lowongan Kerja"
+            },
+            {
+              "where": "end",
+              "text": "Tabel 3. 3 Kolom Kunci Dataset Lowongan Kerja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:14:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Apakah dari semua dataset yang dikumpulkan nama kolom atau atributnya semuanya sama kah? Jika isinya berbeda beda nama kolomnya, sebaiknya disebutkan masing-masing isi kolomnya dan dilakukan pembahasan.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Tabel 3. 3 Kolom Kunci Dataset Lowongan Kerja"
+            },
+            {
+              "where": "end",
+              "text": "Tabel 3. 3 Kolom Kunci Dataset Lowongan Kerja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:16:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Perlu disebutkan ke dalam paragrafnya Tabel 3.4",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Tabel 3. 4 Statistik Deskriptif yang Dianalisis"
+            },
+            {
+              "where": "end",
+              "text": "Tabel 3. 4 Statistik Deskriptif yang Dianalisis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:19:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Power BI, bi nya jangan kecil",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Selain itu, EDA digunakan untuk mengevaluasi potensi noise pada kolom IT Skills. Beberapa skill dapat muncul dengan variasi penulisan, misalnya node.js dan nodejs, javascript dan java script, atau pow"
+            },
+            {
+              "where": "end",
+              "text": "Selain itu, EDA digunakan untuk mengevaluasi potensi noise pada kolom IT Skills. Beberapa skill dapat muncul dengan variasi penulisan, misalnya node.js dan nodejs, javascript dan java script, atau pow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:19:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Bedanya apa ini power BI dan powerbi?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Selain itu, EDA digunakan untuk mengevaluasi potensi noise pada kolom IT Skills. Beberapa skill dapat muncul dengan variasi penulisan, misalnya node.js dan nodejs, javascript dan java script, atau pow"
+            },
+            {
+              "where": "end",
+              "text": "Selain itu, EDA digunakan untuk mengevaluasi potensi noise pada kolom IT Skills. Beberapa skill dapat muncul dengan variasi penulisan, misalnya node.js dan nodejs, javascript dan java script, atau pow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:20:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Setiap Gambar perlu dijelaskan minimal 1 paragraf dan disebut ke dalam paragraf tersebut. Periksa kembali pada Gambar dan Tabel yang disajikan.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gambar 3. 6 Proporsi dan Distribusi Seniority Level"
+            },
+            {
+              "where": "end",
+              "text": "Gambar 3. 6 Proporsi dan Distribusi Seniority Level"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:23:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Dari jumlah kolom yang hanya 5 kolom tadi jadi 208 fitur? Kenapa bisa tiba2 berubah jadi segitu, proses yang dilakukan apa?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Pada penelitian ini, jumlah fitur akhir adalah 208 fitur. Fitur tersebut terdiri dari sekitar 200 fitur TF-IDF yang dibentuk dari kolom IT Skills dan 8 fitur engineered tambahan. Kombinasi fitur teks "
+            },
+            {
+              "where": "end",
+              "text": "Pada penelitian ini, jumlah fitur akhir adalah 208 fitur. Fitur tersebut terdiri dari sekitar 200 fitur TF-IDF yang dibentuk dari kolom IT Skills dan 8 fitur engineered tambahan. Kombinasi fitur teks "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:24:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Belum disebutkan ke dalam paragraf yang ada",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Tabel 3. 5 Fitur Engineered yang Digunakan"
+            },
+            {
+              "where": "end",
+              "text": "Tabel 3. 5 Fitur Engineered yang Digunakan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:27:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Ini nanti saja dikatakannya setelah tahap pelatihan atau modeling, kalau pada bagian ini baru skenarionya saja seharusnya",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Pemilihan 208 fitur dilakukan agar model memperoleh informasi tekstual sekaligus konteks non-tekstual. TF-IDF memberikan representasi skill teknis, sedangkan fitur engineered memberikan informasi juml"
+            },
+            {
+              "where": "end",
+              "text": "Pemilihan 208 fitur dilakukan agar model memperoleh informasi tekstual sekaligus konteks non-tekstual. TF-IDF memberikan representasi skill teknis, sedangkan fitur engineered memberikan informasi juml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:35:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Pada algoritma masing-masing belum disebutkan parameter2 apa saja yang digunakan di masing-masing model, kemudian belum adanya gambar proses pelatihan dari masing-masing model atau kode program untuk membangun model tersebut.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "3.6.3 Algoritma yang Digunakan"
+            },
+            {
+              "where": "end",
+              "text": "3.6.3 Algoritma yang Digunakan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:28:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Tuning hyperparameter dan cross validation adalah sesuatu hal yang berbeda, jadi kurang tepat kalau menggunakan “/ atau”",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "3.6.4 Hyperparameter Tuning / Cross Validation"
+            },
+            {
+              "where": "end",
+              "text": "3.6.4 Hyperparameter Tuning / Cross Validation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:29:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Kenapa hanya random forest saja yang dijelaskan di sini untuk tuningnya?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Hyperparameter tuning dilakukan untuk mencari konfigurasi model yang memberikan performa terbaik. Parameter yang diuji disesuaikan dengan karakteristik masing-masing algoritma. Pada Random Forest, par"
+            },
+            {
+              "where": "end",
+              "text": "Hyperparameter tuning dilakukan untuk mencari konfigurasi model yang memberikan performa terbaik. Parameter yang diuji disesuaikan dengan karakteristik masing-masing algoritma. Pada Random Forest, par"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:36:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Cross validationnya belum dijelaskan berapa fold yang dipakai",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Cross validation digunakan agar model tidak hanya dievaluasi pada satu pembagian data. Dengan validasi silang, performa model dapat diamati pada beberapa subset data sehingga estimasi performa menjadi"
+            },
+            {
+              "where": "end",
+              "text": "Cross validation digunakan agar model tidak hanya dievaluasi pada satu pembagian data. Dengan validasi silang, performa model dapat diamati pada beberapa subset data sehingga estimasi performa menjadi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:30:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "kenapa hanya ada random forest saja padahal algoritma yang digunakan banyak?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gambar 3. 14 K-Fold Cross Validation (k=5, StratifiedKFold), Random Forest (V1)"
+            },
+            {
+              "where": "end",
+              "text": "Gambar 3. 14 K-Fold Cross Validation (k=5, StratifiedKFold), Random Forest (V1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:37:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Kenapa hanya ada random forest dan xgboost yang dibahas, kemudian bagian ini lebih cocok pada bagian akhir evaluasi atau sub bab terpisah untuk membahas perbandingan-perbandingan antar modelnya",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Hasil evaluasi menunjukkan bahwa Random Forest pada versi 2 memperoleh F1-Score tertinggi, yaitu 0,9311. Nilai ini menunjukkan bahwa model memiliki keseimbangan yang baik dalam mengenali kelas Entry, "
+            },
+            {
+              "where": "end",
+              "text": "Hasil evaluasi menunjukkan bahwa Random Forest pada versi 2 memperoleh F1-Score tertinggi, yaitu 0,9311. Nilai ini menunjukkan bahwa model memiliki keseimbangan yang baik dalam mengenali kelas Entry, "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:41:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Jangan langsung ke sini, tapi sebutkan dulu hasil evaluasi masing-masing algoritma, misalnya Logistic Regression, hasil dari classification reportnya bagaimana, kemudian confusion matrixnya bagaimana disertai akurasi presisi recall dan f1-scorenya bagaimana. Setelah itu baru perbandingan performanya untuk v1 dan v2",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gambar 3. 15 Perbandingan Perfoma Model (V1)"
+            },
+            {
+              "where": "end",
+              "text": "Gambar 3. 15 Perbandingan Perfoma Model (V1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:43:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Judul kolom jika tabel lebih dari 1 halaman perlu dimunculkan kembali judul kolomnya dengan cara, blok judul kolomnya kemudian klik kanan pilih table properties, pilih tab row, centang repeat as header.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Tabel 3. 11 Contoh Interpretasi Feature Importance"
+            },
+            {
+              "where": "end",
+              "text": "Tabel 3. 11 Contoh Interpretasi Feature Importance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:45:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Evaluasi di sini bedanya dengan Evaluasi Model di sub 3.6.5 apa ya?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "3.7 Evaluasi"
+            },
+            {
+              "where": "end",
+              "text": "3.7 Evaluasi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:46:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Gunakan equation pada tiap formula yang disajikan",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "(TP + TN) / seluruh data"
+            },
+            {
+              "where": "end",
+              "text": "(TP + TN) / seluruh data"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:48:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Kenapa di atas sudah ada perbandingan ini kemudian di sini muncul kembali? \nperbaiki urutan penulisannya secara sistematis, dan periksa mana yang sudah pernah muncul dan yang belum agar urutannya sesuai sehingga lebih mudah dibaca serta dipahami",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gambar 3. 18 Perbandingan Performa Model  v1 vs v2"
+            },
+            {
+              "where": "end",
+              "text": "Gambar 3. 18 Perbandingan Performa Model  v1 vs v2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:49:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Selain itu dikatakan evaluasinya ada matriks evaluasi banyak hal seperti confusion matrix, akurasi, precision, recall dan f1-score tapi ini tidak ada.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gambar 3. 18 Perbandingan Performa Model  v1 vs v2"
+            },
+            {
+              "where": "end",
+              "text": "Gambar 3. 18 Perbandingan Performa Model  v1 vs v2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:53:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Ini confusion matrix dari algoritma apa? Judulnya harus jelas walaupun di Gambarnya sudah ada namanya, kemudian jangan hanya random forest saja yang ditampilkan",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gambar 3. 19 Confusion Matrix (V1)"
+            },
+            {
+              "where": "end",
+              "text": "Gambar 3. 19 Confusion Matrix (V1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:54:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Selain itu dari sisi hasil, ini sangat tidak seimbang dan bagus ya, di mana model hanya fokus belajar untuk kelas actual mid, sedangkan kelas kelas lain kurang bagus.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gambar 3. 19 Confusion Matrix (V1)"
+            },
+            {
+              "where": "end",
+              "text": "Gambar 3. 19 Confusion Matrix (V1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:56:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Hasil confusion matrix yang v2 nya mana?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gambar 3. 19 Confusion Matrix (V1)"
+            },
+            {
+              "where": "end",
+              "text": "Gambar 3. 19 Confusion Matrix (V1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:55:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Ini evaluasi AUC-ROC tapi tidak ada hasil grafiknya AUC-ROC nya mana?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "3.7.6 Evaluasi AUC-ROC"
+            },
+            {
+              "where": "end",
+              "text": "3.7.6 Evaluasi AUC-ROC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T10:58:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Ini sebenarnya aplikasi prediksi seniority level atau DETEKSI KESENJANGAN KOMPETENSI DAN REKOMENDASI SKILL ? Karena yang dibahas untuk hasilnya juga hanya klasifikasi seniority level bukan mengenai kesenjangan dan rekomendasi skill.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Berdasarkan hasil evaluasi, Random Forest versi 2 ditetapkan sebagai model final karena memperoleh F1-Score tertinggi sebesar 0,9311. Model ini mengungguli Logistic Regression, SVM, XGBoost, dan Light"
+            },
+            {
+              "where": "end",
+              "text": "Berdasarkan hasil evaluasi, Random Forest versi 2 ditetapkan sebagai model final karena memperoleh F1-Score tertinggi sebesar 0,9311. Model ini mengungguli Logistic Regression, SVM, XGBoost, dan Light"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "168",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T11:01:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Mana hasilnya kenapa tidak ditunjukkan Gambar dari web yang dibangun? Jangan dimasukkan ke lampiran.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "3.8.2 Implementasi Frontend"
+            },
+            {
+              "where": "end",
+              "text": "3.8.2 Implementasi Frontend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "172",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T11:02:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Gunakan equation serta nomor persamaannya",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Hasil pencocokan dibagi menjadi matched skills dan gap skills. Matched skills adalah skill benchmark yang telah dimiliki pengguna, sedangkan gap skills adalah skill benchmark yang belum ditemukan pada"
+            },
+            {
+              "where": "end",
+              "text": "Hasil pencocokan dibagi menjadi matched skills dan gap skills. Matched skills adalah skill benchmark yang telah dimiliki pengguna, sedangkan gap skills adalah skill benchmark yang belum ditemukan pada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T11:02:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Gunakan equation serta nomor persamaannya",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Rekomendasi skill dihitung menggunakan priority_score. Rumus yang digunakan adalah priority_score = freq_in_target_job x 0,6 + freq_global x 0,4. freq_in_target_job adalah frekuensi skill pada lowonga"
+            },
+            {
+              "where": "end",
+              "text": "Rekomendasi skill dihitung menggunakan priority_score. Rumus yang digunakan adalah priority_score = freq_in_target_job x 0,6 + freq_global x 0,4. freq_in_target_job adalah frekuensi skill pada lowonga"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "174",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T11:04:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Berikan contoh simulasi perhitungannya minimal 1 contoh dari proses awal hingga mendapatkan rekomendasi serta kesenjangan tersebut berdasarkan sistem web yang sudah dibangun.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Rekomendasi skill dihitung menggunakan priority_score. Rumus yang digunakan adalah priority_score = freq_in_target_job x 0,6 + freq_global x 0,4. freq_in_target_job adalah frekuensi skill pada lowonga"
+            },
+            {
+              "where": "end",
+              "text": "Rekomendasi skill dihitung menggunakan priority_score. Rumus yang digunakan adalah priority_score = freq_in_target_job x 0,6 + freq_global x 0,4. freq_in_target_job adalah frekuensi skill pada lowonga"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T11:03:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Berikan penjelasannya setiap Tabel yang disajikan.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Tabel 3. 16 Contoh Input dan Output Fitur Scan CV"
+            },
+            {
+              "where": "end",
+              "text": "Tabel 3. 16 Contoh Input dan Output Fitur Scan CV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "179",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T11:05:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Berikan contoh langsung ke dalam sistem webnya",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Tabel 3. 18 Contoh Input dan Output Manual Skill Check"
+            },
+            {
+              "where": "end",
+              "text": "Tabel 3. 18 Contoh Input dan Output Manual Skill Check"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "182",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T11:07:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "SUS nya belum ada?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Di pembahasan dikatakan menggunakan SUS, mana pengujian SUS nya belum ada."
+            },
+            {
+              "where": "end",
+              "text": "Di pembahasan dikatakan menggunakan SUS, mana pengujian SUS nya belum ada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "184",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T11:08:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "!",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Sertakan link website deploymentnya yang sudah di deploy, berikan link url nya atau qrcode untuk webnya agar bisa diakses."
+            },
+            {
+              "where": "end",
+              "text": "Sertakan link website deploymentnya yang sudah di deploy, berikan link url nya atau qrcode untuk webnya agar bisa diakses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "187",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T11:12:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Ini yang dimaksud membandingkan dengan benchmark seperti apa ya? Pembahasannya ada di bahas di sub sub bab berapa?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Sistem deteksi kesenjangan kompetensi ElvIT berhasil dikembangkan menggunakan pendekatan hybrid NLP dan machine learning. Sistem mampu menerima input kompetensi pengguna melalui tiga jalur (Scan CV, S"
+            },
+            {
+              "where": "end",
+              "text": "Sistem deteksi kesenjangan kompetensi ElvIT berhasil dikembangkan menggunakan pendekatan hybrid NLP dan machine learning. Sistem mampu menerima input kompetensi pengguna melalui tiga jalur (Scan CV, S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T11:13:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Acuan rumus ini diperoleh dari mana ya? Apakah ini hasil asumsi sendiri atau ada sumber acuannya perhitungan tersebut?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Algoritma deteksi kesenjangan berbasis frekuensi skill dan priority_score terbukti mampu menghasilkan rekomendasi skill yang relevan. Dengan rumus priority_score = freq_in_target_job x 0,6 + freq_glob"
+            },
+            {
+              "where": "end",
+              "text": "Algoritma deteksi kesenjangan berbasis frekuensi skill dan priority_score terbukti mampu menghasilkan rekomendasi skill yang relevan. Dengan rumus priority_score = freq_in_target_job x 0,6 + freq_glob"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "189",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T11:14:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Pengujian SUS nya belum ada dan belum bisa dinilai seberapa baik web yang dibangun tersebut.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Implementasi sistem sebagai aplikasi web dengan arsitektur FastAPI dan React.js terbukti berhasil mengintegrasikan model machine learning, pipeline NLP, dan antarmuka pengguna dalam satu sistem yang d"
+            },
+            {
+              "where": "end",
+              "text": "Implementasi sistem sebagai aplikasi web dengan arsitektur FastAPI dan React.js terbukti berhasil mengintegrasikan model machine learning, pipeline NLP, dan antarmuka pengguna dalam satu sistem yang d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "192",
+      "author": "Lenovo Slim 5",
+      "date": "2026-08-03T11:16:00Z",
+      "initials": "LS",
+      "resolved": false,
+      "text": "Gunakan mendeley dengan style Harvard, pastikan semua daftar pustaka yang disitasi ke dalam paragraf, tercantum juga di dalam Daftar Pustaka bagian ini.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "DAFTAR PUSTAKA"
+            },
+            {
+              "where": "end",
+              "text": "DAFTAR PUSTAKA"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
