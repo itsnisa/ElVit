@@ -293,11 +293,8 @@ export default function ScanCVPage() {
         <div className="right-panel">
           <div className="info-panel">
             <div className="ip-label">RINGKASAN PLATFORM</div>
-<<<<<<< HEAD
             <div className="ip-num">4<span>,667</span></div>
-=======
-            <div className="ip-num">3<span>,142</span></div>
->>>>>>> 04223921dba98899596735d7a97cb1de184e3534
+
             <div className="ip-sub">lowongan kerja IT dianalisis sebagai benchmark skill industri</div>
           </div>
           <div className="info-panel">
